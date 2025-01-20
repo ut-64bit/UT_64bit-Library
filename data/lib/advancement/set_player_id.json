@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "tick"
+    }
+  },
+	"rewards": {
+		"function": "lib:player_id/init"
+	}
+}
