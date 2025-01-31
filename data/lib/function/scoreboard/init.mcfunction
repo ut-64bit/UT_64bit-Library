@@ -104,4 +104,6 @@ scoreboard players set $98 const 98
 scoreboard players set $99 const 99
 scoreboard players set $100 const 100
 scoreboard players set $1000 const 1000
+scoreboard players set $1002 const 1002
+scoreboard players set $1024 const 1024
 scoreboard players set $10000 const 10000
