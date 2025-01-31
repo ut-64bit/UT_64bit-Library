@@ -94,6 +94,12 @@
 			"#minecraft:trapdoors",
 			"#minecraft:wall_corals",
 			"#minecraft:wall_signs",
-			"#minecraft:wool_carpets"
+			"#minecraft:wool_carpets",
+			"#candles",
+			"chain",
+			"pale_hanging_moss",
+			"pale_moss_carpet",
+			"#flower_pots",
+			"small_amethyst_bud"
 	]
 }
