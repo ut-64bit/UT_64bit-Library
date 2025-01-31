@@ -13,3 +13,4 @@ scoreboard objectives add lib dummy
 scoreboard objectives add const dummy
 
 scoreboard objectives add PlayerID dummy
+scoreboard objectives add TeamID dummy
