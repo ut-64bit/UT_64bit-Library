@@ -1,6 +1,8 @@
 {
 	"values": [
 		"oh_my_dat:sys/load",
+		"forward_spreader:core/load",
+		"p_motion:system/load",
 		"lib:load"
 	]
 }
