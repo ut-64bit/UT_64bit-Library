@@ -2,7 +2,7 @@
 # @within function lib:get_vector/
 
 # ベクトルを取得
-data modify storage lib.temp:get_vector output.vector set from entity 0-0-0-0-abc Pos
+data modify storage lib.temp:get_vector output.vector set from entity @s Pos
 
 # あとしまつ
 kill @s

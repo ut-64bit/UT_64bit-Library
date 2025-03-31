@@ -100,6 +100,13 @@
 			"pale_hanging_moss",
 			"pale_moss_carpet",
 			"#flower_pots",
-			"small_amethyst_bud"
+			"small_amethyst_bud",
+			"end_rod",
+			"#slabs",
+			"#stairs",
+			"#fences",
+			"ladder",
+			"barrier",
+			"#doors"
 	]
 }

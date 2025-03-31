@@ -1,6 +1,8 @@
 #> lib:tick
-# @handles #minecraft:tick
+# @within tags/function #minecraft:tick
 
-execute store result storage lib: global.Time int 1 run time query gametime
+# ゲーム内時間を取得する
+	execute store result storage lib: WorldTime int 1 store result score $WorldTime lib run time query gametime
 
-execute as @a run function lib:player_tick
+# プレイヤーのtick
+	execute as @a run function lib:player_tick

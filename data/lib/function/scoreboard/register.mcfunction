@@ -1,16 +1,17 @@
 #> lib:system/scoreboard/register
 # @within function lib:load
 
-#>
-# 一時変数
-# @global
+#> Temporary
+# @public
 scoreboard objectives add _ dummy
 scoreboard objectives add lib dummy
 
-#>
-# 定数
-# @global
+#> Constant
+# @public
 scoreboard objectives add const dummy
 
+#> Variable
+# @public
 scoreboard objectives add PlayerID dummy
 scoreboard objectives add TeamID dummy
+scoreboard objectives add InputTime.Sprint dummy

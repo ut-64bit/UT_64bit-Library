@@ -6,12 +6,13 @@
 
 
 # 既存の_teamタグを外す
-tag @e[tag=_team] remove _team
+execute as @e[tag=_team] run tag @s remove _team
 
 # 一時スコアにTeamIDを保存する
 scoreboard players operation $SearchID _ = @s TeamID
 
-execute as @e[scores={TeamID=-2147483648..2147483647}] run function lib:team_id/get_team/main
+# 100m以内の同じTeamIDを持つエンティティに一時タグ(_team)を付与する
+execute as @e[distance=..100] if score @s TeamID = $SearchID _ run tag @s add _team
 
 # あとしまつ
 scoreboard players reset $SearchID _
